@@ -1,0 +1,271 @@
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title> user Login
+		</title>
+		<head>
+			<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<link rel="stylesheet"  href="style3.css" >
+		
+			<title>car wash</title>
+		</head>
+	<body> 
+
+ <div id="slideout-menu">
+ <ul>
+	 <li>
+                <a href="index.html">Home</a>
+            </li>
+			<div class="dropdown">
+       
+		<li>
+		
+			   <a href="#">Login&nbsp;<i class="fa fa-caret-down"></i></a>
+				<div class="sub-menu">
+        <ul>
+		<li><a href="admin.html"><i class="fa fa-lock"></i>Admin</a></li>
+		<li><a href="login.html"><i class="fa fa-users"></i>User</a></li>
+</ul>
+</div>
+</div>
+			</li>
+			
+			<li>
+                <a href="services.html">Services</a>
+            </li>
+			<li>
+                <a href="blog.html">Blog</a>
+            </li>
+		 <li>
+                <a href="about.html">About us</a>
+            </li>
+            <li>
+                <input type="text" placeholder="Search Here">
+            </li>
+        </ul>
+
+ </div>
+ 
+    <nav>
+	
+        <div id="logo-img">
+            <a href="#">
+                <img src="img/logo-img.png" alt="car wash Logo">
+            </a>
+        </div>
+        <div id="menu-icon">
+		
+       
+		<div  onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div> </div>
+        <ul>
+            <li>
+                <a  href="index.html">Home</a>
+            </li>
+			<div class="dropdown">
+        <li>
+                <a class="active" href="#">Login&nbsp;<i class="fa fa-caret-down"></i></a>
+				<div class="sub-menu">
+        <ul>
+		<li><a href="admin.html"><i class="fa fa-lock"></i>Admin</a></li>
+		<li><a href="login.html"><i class="fa fa-users"></i>User</a></li>
+</ul>
+</div>
+		</div>
+			</li>
+		</li>
+          <li>
+                <a href="services.html">Services</a>
+            </li>
+			<li>
+                <a href="blog.html">Blog</a>
+            </li>
+			 
+            <li>
+                <a href="about.html">About us</a>
+            </li>
+			 <li>
+                <div id="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                </li>
+			   </ul>
+	</div>
+	</nav>
+<div id="searchbox">
+	<input type="text" placeholder="Search Here">
+</div>
+<div class="login-box">
+	<div class="form">
+		<form name="myform2"class ="register-form"onsubmit="return vfun1()"action="register.php"method="POST">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h4>Register</h4>
+			<div class="textbox">
+				<i class="fas fa-user"></i>
+				<input type="text"style="color:white"name="Uname" placeholder="user name"required="">
+			</div>
+			<div class="textbox">
+				<i class="fas fa-lock"></i>
+				<input type="text"style="color:white"name="Upass"placeholder="password"required="">
+			</div>
+			<div class="textbox">
+				<i class="fas fa-lock"></i>
+				<input type="text" style="color:white"name="Upass2" placeholder="Re-Enter Password">
+			</div>
+			<div class="textbox">
+				<i class="fas fa-envelope" ></i>
+				<input  type="text"style="color:white"name="vehicleNo"placeholder="vehicle No"required="">
+			</div>
+			<div class="textbox">
+				<i class="fas fa-phone" ></i>
+				<input type="text"style="color:white"name="phone"placeholder="phone number"maxlength="10"required="">
+			</div>
+			<div class="textbox">
+				<i class="fas fa-car" ></i>
+				<select id ="vehicle"style="color:white"name="vehicle"required="" >
+					
+					<option value=""style="color:black">Vehicles</option>
+					<optgroup label="Vehicles"style="color:black">
+						<option value="Bike"style="color:black" >Bike</option>
+						<option value="Jeep" style="color:black" >Jeep(TATA AC)</option>
+						<optgroup label="Bus"style="color:black">
+							<option value="Bus"style="color:black">Bus</option>
+							<option value="MINI Bus"style="color:black">MINI Bus</option>
+							<optgroup label="Lorry"style="color:black">
+								<option value="Lorry" style="color:black">Lorry</option>
+								<option value="14- Wheel Lorry" style="color:black">14- Wheel Lorry</option>
+								<optgroup label="Cars"style="color:black">
+									<option value="Abarth 500 (HATCHBACK)" style="color:black">Abarth 500 (HATCHBACK)</option>
+									<option value="Ambassador (SEDAN)"style="color:black">Ambassador (SEDAN)</option>
+									<option value="Ashok Leyland Stile (SUV)"style="color:black">Ashok Leyland Stile (SUV)</option>
+									<option value="Aston Martin DB9 (PREMIUM)"style="color:black">Aston Martin DB9 (PREMIUM)</option>
+									<option value="Aston Martin DBS (PREMIUM)"style="color:black">Aston Martin DBS (PREMIUM)</option>
+									<option value="Aston Martin One 77 (PREMIUM"style="color:black">Aston Martin One 77 (PREMIUM)</option>
+									<option value="Aston Martin Rapide (PREMIUM)"style="color:black">Aston Martin Rapide (PREMIUM)</option>
+									<option value="Aston Martin Vanquish (PREMIUM)"style="color:black">Aston Martin Vanquish (PREMIUM)</option>
+									<option value="Aston Martin Vantage (PREMIUM)"style="color:black">Aston Martin Vantage (PREMIUM)</option>
+									<option value="Aston Martin Virage (PREMIUM)"style="color:black">Aston Martin Virage (PREMIUM)</option>
+									<option value="Aston Martin Zagato (PREMIUM)"style="color:black">Aston Martin Zagato (PREMIUM)</option>
+									<option value="Audi "style="color:black">Audi </option>
+									<option value="Austin A40 (PREMIUM)"style="color:black">Austin A40 (PREMIUM)</option>
+									<option value="Bentley Arnage (EXOTIC)"style="color:black">Bentley Arnage (EXOTIC)</option>
+									<option value="Bentley Azure (EXOTIC)"style="color:black">Bentley Azure (EXOTIC)</option>
+									<option value="Bentley Brookland (EXOTIC)"style="color:black">Bentley Brookland (EXOTIC)</option>
+									<option value="BMW"style="color:black">BMW </option>
+									<option value="Ferrari"style="color:black">Ferrari </option>
+									<option value="Fiat 500"style="color:black">Fiat 500</option>
+									<option value="Force Gurkha (SUV)"style="color:black">Force Gurkha (SUV)</option>
+									<option value="Ford Classic (SEDAN)"style="color:black">Ford Classic (SEDAN)</option>
+									<option value="Hindustan Motors Contessa (SEDAN)"style="color:black">Hindustan Motors Contessa (SEDAN)</option>
+									<option value=">Honda Accord (PREMIUM)"style="color:black">Honda Accord (PREMIUM)</option>
+									<option value="Honda Amaze (SEDAN)"style="color:black">Honda Amaze (SEDAN)</option>
+									<option value="Honda City (SEDAN)"style="color:black">Honda City (SEDAN)</option>
+									<option value="Honda New Accord (PREMIUM)"style="color:black">Honda New Accord (PREMIUM)</option>
+									<option value="Hummer"style="color:black">Hummer </option>
+									<option value="Hyundai Santa Fe (SUV)"style="color:black">Hyundai Santa Fe (SUV)</option>
+									<option value="Hyundai Santa "style="color:black">Hyundai Santa Fe 2009-2013 (SUV)</option>
+									<option value="Mahindra Armada (SUV)"style="color:black">Mahindra Armada (SUV)</option>
+									<option value="Mahindra Ingenio (SUV)"style="color:black">Mahindra Ingenio (SUV)</option>
+									<option value="Maruti Kizashi (PREMIUM)"style="color:black">Maruti Kizashi (PREMIUM)</option>
+									<option value="Maruti MR Wagon (HATCHBACK)"style="color:black">Maruti MR Wagon (HATCHBACK)</option>
+									<option value="Maruti Omni (MUV)"style="color:black">Maruti Omni (MUV)</option>
+									<option value="Maruti Palette (MUV)"style="color:black">Maruti Palette (MUV)</option>
+									<option value="Maruti R3 (EXOTIC)"style="color:black">Maruti R3 (EXOTIC)</option>
+									<option value="Maruti Ritz (HATCHBACK"style="color:black">Maruti Ritz (HATCHBACK)</option>
+									<option value="Maruti Swift (HATCHBACK)"style="color:black">Maruti Swift (HATCHBACK)</option>
+									<option value="Maruti SX4 (SEDAN)"style="color:black">Maruti SX4 (SEDAN)</option>
+									<option value="Maruti Wagon R (HATCHBACK)"style="color:black">Maruti Wagon R (HATCHBACK)</option>
+									<option value="Maruti YRA (HATCHBACK)"style="color:black">Maruti YRA (HATCHBACK)</option>
+									<option value="Maruti Zen (HATCHBACK)"style="color:black">Maruti Zen (HATCHBACK)</option>
+									<option value="Nissan Evalia (MUV)"style="color:black">Nissan Evalia (MUV)</option>
+									<option value="Skoda Superb"style="color:black">Skoda Superb </option>
+									<option value="Tata Aria (SUV)"style="color:black">Tata Aria (SUV)</option>
+									<option value="Tata Estate (SUV)"style="color:black">Tata Estate (SUV)</option>
+									<option value="Tata Indica (HATCHBACK)"style="color:black">Tata Indica (HATCHBACK)</option>
+									<option value="Tata Indigo (SEDAN)"style="color:black">Tata Indigo (SEDAN)</option>
+									<option value="Tata Safari Storme (SUV)"style="color:black">Tata Safari Storme (SUV)</option>
+									<option value="Tata Sumo (SUV)"style="color:black">Tata Sumo (SUV)</option>
+									<option value="Toyota Etios (SEDAN)"style="color:black">Toyota Etios (SEDAN)</option>
+									<option value="Toyota Innova (SUV)"style="color:black">Toyota Innova (SUV)</option>
+									<option value="Volkswagen Golf "style="color:black">Volkswagen Golf (HATCHBACK)</option>
+									<option value="Volvo C30"style="color:black">Volvo C30 (PREMIUM)</option>
+									<option value="CRETA (MUV)"style="color:black">CRETA (MUV)</option>
+									<option value="S-CROSS (MUV)"style="color:black">S-CROSS (MUV)</option>
+									<option value="TUV-300 (SUV)"style="color:black">BREZZA-VITARA (MUV)</option>
+									<option value="598" ="4"style="color:black">TUV-300 (SUV)</option>
+									<option value="KUV-100"style="color:black"> KUV-100 (HATCHBACK)</option>
+								</select>
+							</div>
+							<button>create </button>
+							
+							<p class="message">Already Registered? &nbsp;<a href="#"><b>Login</b></a>
+							</p>
+						</form>
+						<script src="main.js"></script>
+						
+						<form name="myform"class ="login-form"onsubmit="return vfun()"method="POST"action="login.php">
+							<h4> User login</h4>
+							<div class="textbox">
+								<i class="fas fa-user"></i>
+								<input type="text"style="color:white"name="Uname" placeholder="user name"required="">
+							</div>
+							<div class="textbox">
+								<i class="fas fa-lock"></i>
+								<input type="password"style="color:white"name="Upass"placeholder="password"required="">
+							</div>
+							
+							<button>sign in</button>
+							<p class="message"> Not Registered? &nbsp;<a href="#"><b>Register
+							</b> </a> </p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Register script-->
+<script
+src='https://code.jquery.com/jquery-3.2.1.min.js'>
+</script>
+
+<script>
+	$('.message a').click(function(){
+		$('form').animate({height:"toggle",opacity:"toggle"},"slow");
+	});
+</script>
+<script>
+	function myFunction(x) {
+		x.classList.toggle("change");
+	}
+</script>    
+
+<script src="main.js"></script>
+</body>
+</html>
+
+
